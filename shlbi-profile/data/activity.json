@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-04T03:45:58Z",
+  "scope": "Latest default-branch commit per featured public repository; not a personal contribution total.",
+  "repositories": [
+    {
+      "repo": "shlbi/graft",
+      "label": "REPOT",
+      "public": true,
+      "branch": "main",
+      "sha": "ab4ab7494d64e1951813a9dc6cfe998d6b5e729f",
+      "subject": "fix(repot): repair rejected drafts within a bounded job budget",
+      "committed_at": "2026-10-01T23:14:59Z",
+      "url": "https://github.com/shlbi/graft/commit/ab4ab7494d64e1951813a9dc6cfe998d6b5e729f"
+    },
+    {
+      "repo": "shlbi/kinetic",
+      "label": "Kinetic",
+      "public": true,
+      "branch": "main",
+      "sha": "e56b5d5ad34269b0888bf2720170869b4123197c",
+      "subject": "chore: persist project validation and demo handoff",
+      "committed_at": "2026-09-22T08:17:34Z",
+      "url": "https://github.com/shlbi/kinetic/commit/e56b5d5ad34269b0888bf2720170869b4123197c"
+    },
+    {
+      "repo": "shlbi/osmo",
+      "label": "OSMO",
+      "public": true,
+      "branch": "main",
+      "sha": "c741889cf88cedc196dd616f896fd7209f315387",
+      "subject": "Open-source OSMO research toolkit under MIT",
+      "committed_at": "2026-09-06T23:48:31Z",
+      "url": "https://github.com/shlbi/osmo/commit/c741889cf88cedc196dd616f896fd7209f315387"
+    }
+  ]
+}

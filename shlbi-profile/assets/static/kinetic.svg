@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="255" viewBox="0 0 480 255" role="img" aria-labelledby="title desc">
+<title id="title">Kinetic — deterministic timelines</title><desc id="desc">An abstract animated traffic-ring illustration, not a recording of the simulator.</desc>
+<defs><pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".75" fill="#343c2c" opacity=".6"/></pattern><linearGradient id="fade" x2="1" y2="1"><stop stop-color="#25331a"/><stop offset="1" stop-color="#10120f"/></linearGradient></defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}
+.mono{font-family:'Courier New',monospace}
+.float-a{animation:assemble-a 11s ease-in-out infinite}
+.float-b{animation:assemble-b 11s ease-in-out infinite}
+.float-c{animation:assemble-c 11s ease-in-out infinite}
+@keyframes assemble-a{0%,12%,78%,100%{transform:translate(0,0)}35%,50%{transform:translate(20px,-24px)}}
+@keyframes assemble-b{0%,16%,82%,100%{transform:translate(0,0)}38%,56%{transform:translate(-20px,14px)}}
+@keyframes assemble-c{0%,20%,88%,100%{transform:translate(0,0)}42%,60%{transform:translate(16px,22px)}}
+.signal{stroke-dasharray:7 180;animation:signal 7s linear infinite}
+@keyframes signal{to{stroke-dashoffset:-374}}
+.orbit{transform-origin:240px 139px;animation:orbit 26s linear infinite}
+.orbit-slow{transform-origin:240px 139px;animation:orbit 36s linear infinite reverse}
+@keyframes orbit{to{transform:rotate(360deg)}}
+.transfer{animation:transfer 12s ease-in-out infinite}
+@keyframes transfer{0%,12%{transform:translate(0,0);opacity:1}45%{transform:translate(124px,-54px);opacity:1}72%,84%{transform:translate(250px,18px);opacity:1}88%,92%{transform:translate(250px,18px);opacity:0}94%{transform:translate(0,0);opacity:0}100%{transform:translate(0,0);opacity:1}}
+.curve{stroke-dasharray:700;animation:curve 10s ease-in-out infinite}
+@keyframes curve{0%,100%{stroke-dashoffset:0;opacity:1}45%{stroke-dashoffset:0;opacity:1}65%{stroke-dashoffset:700;opacity:.2}80%{stroke-dashoffset:0;opacity:1}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+*{animation:none!important}</style>
+<rect x="0.5" y="0.5" width="479" height="254" rx="8" fill="#10120f" stroke="#343c2c" />
+<rect x="1" y="1" width="478" height="244" rx="0" fill="url(#dots)" stroke="none" /><text x="24" y="32" font-size="12" fill="#c6f36b" font-weight="400" class="mono" letter-spacing="1" >02 / KINETIC</text><ellipse cx="240" cy="139" rx="83.7" ry="37.8" fill="none" stroke="#343c2c" stroke-width="1"/><ellipse cx="240" cy="139" rx="120.9" ry="54.599999999999994" fill="none" stroke="#343c2c" stroke-width="1"/><ellipse cx="240" cy="139" rx="158.1" ry="71.39999999999999" fill="none" stroke="#343c2c" stroke-width="1"/><path d="M83 139H397M240 65V213" fill="none" stroke="#283020" stroke-dasharray="2 6"/><g transform="translate(240,139) scale(1.55,.7) translate(-240,-139)"><g class="orbit"><rect x="315.00" y="136.00" width="6" height="6" fill="#c6f36b" transform="rotate(90,318.00,139.00)"/><rect x="308.26" y="167.73" width="6" height="6" fill="#c6f36b" transform="rotate(114,311.26,170.73)"/><rect x="289.19" y="193.97" width="6" height="6" fill="#c6f36b" transform="rotate(138,292.19,196.97)"/><rect x="261.10" y="210.18" width="6" height="6" fill="#c6f36b" transform="rotate(162,264.10,213.18)"/><rect x="228.85" y="213.57" width="6" height="6" fill="#c6f36b" transform="rotate(186,231.85,216.57)"/><rect x="198.00" y="203.55" width="6" height="6" fill="#758364" transform="rotate(210,201.00,206.55)"/><rect x="173.90" y="181.85" width="6" height="6" fill="#758364" transform="rotate(234,176.90,184.85)"/><rect x="160.70" y="152.22" width="6" height="6" fill="#758364" transform="rotate(258,163.70,155.22)"/><rect x="160.70" y="119.78" width="6" height="6" fill="#758364" transform="rotate(282,163.70,122.78)"/><rect x="173.90" y="90.15" width="6" height="6" fill="#758364" transform="rotate(306,176.90,93.15)"/><rect x="198.00" y="68.45" width="6" height="6" fill="#758364" transform="rotate(330,201.00,71.45)"/><rect x="228.85" y="58.43" width="6" height="6" fill="#758364" transform="rotate(354,231.85,61.43)"/><rect x="261.10" y="61.82" width="6" height="6" fill="#758364" transform="rotate(378,264.10,64.82)"/><rect x="289.19" y="78.03" width="6" height="6" fill="#758364" transform="rotate(402,292.19,81.03)"/><rect x="308.26" y="104.27" width="6" height="6" fill="#758364" transform="rotate(426,311.26,107.27)"/></g></g><circle cx="240" cy="139" r="38" fill="#10120f" stroke="#343c2c"/><text x="240" y="144" font-size="21" fill="#eeeade" font-weight="400" class="mono" text-anchor="middle" >t →</text><text x="24" y="233" font-size="11" fill="#9bA18f" font-weight="400" class="mono" letter-spacing="0.6" >ONE TIMELINE. EVERY OUTPUT.</text>
+</svg>

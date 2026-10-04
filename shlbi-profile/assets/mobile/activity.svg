@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="486" viewBox="0 0 480 486" role="img" aria-labelledby="title desc">
+<title id="title">Build pulse — a dated snapshot of featured repository activity</title><desc id="desc">REPOT: fix(repot): repair rejected drafts within a bounded job budget; 2026-10-01; ab4ab74; Kinetic: chore: persist project validation and demo handoff; 2026-09-22; e56b5d5; OSMO: Open-source OSMO research toolkit under MIT; 2026-09-06; c741889. Checked 2026-10-04 03:45 UTC</desc>
+<defs><pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".75" fill="#343c2c" opacity=".6"/></pattern><linearGradient id="fade" x2="1" y2="1"><stop stop-color="#25331a"/><stop offset="1" stop-color="#10120f"/></linearGradient></defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}
+.mono{font-family:'Courier New',monospace}
+.float-a{animation:assemble-a 11s ease-in-out infinite}
+.float-b{animation:assemble-b 11s ease-in-out infinite}
+.float-c{animation:assemble-c 11s ease-in-out infinite}
+@keyframes assemble-a{0%,12%,78%,100%{transform:translate(0,0)}35%,50%{transform:translate(20px,-24px)}}
+@keyframes assemble-b{0%,16%,82%,100%{transform:translate(0,0)}38%,56%{transform:translate(-20px,14px)}}
+@keyframes assemble-c{0%,20%,88%,100%{transform:translate(0,0)}42%,60%{transform:translate(16px,22px)}}
+.signal{stroke-dasharray:7 180;animation:signal 7s linear infinite}
+@keyframes signal{to{stroke-dashoffset:-374}}
+.orbit{transform-origin:240px 139px;animation:orbit 26s linear infinite}
+.orbit-slow{transform-origin:240px 139px;animation:orbit 36s linear infinite reverse}
+@keyframes orbit{to{transform:rotate(360deg)}}
+.transfer{animation:transfer 12s ease-in-out infinite}
+@keyframes transfer{0%,12%{transform:translate(0,0);opacity:1}45%{transform:translate(124px,-54px);opacity:1}72%,84%{transform:translate(250px,18px);opacity:1}88%,92%{transform:translate(250px,18px);opacity:0}94%{transform:translate(0,0);opacity:0}100%{transform:translate(0,0);opacity:1}}
+.curve{stroke-dasharray:700;animation:curve 10s ease-in-out infinite}
+@keyframes curve{0%,100%{stroke-dashoffset:0;opacity:1}45%{stroke-dashoffset:0;opacity:1}65%{stroke-dashoffset:700;opacity:.2}80%{stroke-dashoffset:0;opacity:1}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="0.5" y="0.5" width="479" height="485" rx="8" fill="#10120f" stroke="#343c2c" />
+<text x="28" y="36" font-size="12" fill="#c6f36b" font-weight="400" class="mono" letter-spacing="1" >04 / BUILD PULSE</text><text x="28" y="61" font-size="10" fill="#9bA18f" font-weight="400" class="mono" letter-spacing="0.5" >LATEST PUBLIC REPO COMMITS</text><path d="M28 77H452" fill="none" stroke="#343c2c" stroke-width="1" /><rect x="28" y="107" width="8" height="8" rx="0" fill="#c6f36b" stroke="#c6f36b" /><text x="48" y="117" font-size="18" fill="#eeeade" font-weight="700" class="mono" >REPOT</text><text x="452" y="117" font-size="14" fill="#9bA18f" font-weight="400" class="mono" text-anchor="end" >2026-10-01 / ab4ab74</text><text x="28" y="148" font-size="18" fill="#eeeade" font-weight="400" >fix(repot): repair rejected drafts within…</text><text x="28" y="172" font-size="18" fill="#9bA18f" font-weight="400" >a bounded job budget</text><path d="M28 193H452" fill="none" stroke="#343c2c" stroke-width="1" /><rect x="28" y="218" width="8" height="8" rx="0" fill="#c6f36b" stroke="#c6f36b" /><text x="48" y="228" font-size="18" fill="#eeeade" font-weight="700" class="mono" >Kinetic</text><text x="452" y="228" font-size="14" fill="#9bA18f" font-weight="400" class="mono" text-anchor="end" >2026-09-22 / e56b5d5</text><text x="28" y="259" font-size="18" fill="#eeeade" font-weight="400" >chore: persist project validation and dem…</text><text x="28" y="283" font-size="18" fill="#9bA18f" font-weight="400" >o handoff</text><path d="M28 304H452" fill="none" stroke="#343c2c" stroke-width="1" /><rect x="28" y="329" width="8" height="8" rx="0" fill="#c6f36b" stroke="#c6f36b" /><text x="48" y="339" font-size="18" fill="#eeeade" font-weight="700" class="mono" >OSMO</text><text x="452" y="339" font-size="14" fill="#9bA18f" font-weight="400" class="mono" text-anchor="end" >2026-09-06 / c741889</text><text x="28" y="370" font-size="18" fill="#eeeade" font-weight="400" >Open-source OSMO research toolkit under M…</text><text x="28" y="394" font-size="18" fill="#9bA18f" font-weight="400" >IT</text><path d="M28 415H452" fill="none" stroke="#343c2c" stroke-width="1" /><text x="28" y="464" font-size="10" fill="#9bA18f" font-weight="400" class="mono" letter-spacing="0.3" >CHECKED 2026-10-04 03:45 UTC</text>
+</svg>

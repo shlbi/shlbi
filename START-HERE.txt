@@ -1,0 +1,19 @@
+SAIF ALSHALABI — GITHUB PROFILE PACKAGE
+
+1. Open OPEN-PREVIEW.html in your browser to see the whole README and animations.
+2. The files to publish are INSIDE the shlbi-profile folder.
+3. Sign into GitHub as shlbi. Create a PUBLIC repository named shlbi with a starter README.
+4. In that repository, choose Add file > Upload files.
+5. Drag the CONTENTS of the shlbi-profile folder onto the upload page and commit to main.
+
+Do not upload this ZIP or nest the shlbi-profile folder inside the repository.
+README.md and assets/ must be at the repository root.
+
+The .github folder contains the optional daily activity refresh workflow.
+Omit .github to keep the included activity snapshot fixed. SVG animations
+still work without a workflow.
+
+Full setup notes: shlbi-profile/SETUP.md
+Local test results: shlbi-profile/VERIFICATION.md
+
+Nothing has been published to GitHub from this chat.
